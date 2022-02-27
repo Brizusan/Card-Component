@@ -1,54 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Stats preview card component</title>
-  <link rel="stylesheet" href="css/index.css">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Stats preview card component</title>
+    <link rel="stylesheet" href="./css/index.css">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center;color:#fff; margin-top: 40px; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  
-  <article class="article">
-    <section class="rigth">
-    </section>
-    <section class="card">
-      <h1 class="title">Get <span>insights</span> that help your business grow.</h1>
-      <p class="description"> Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-        experience, and overall efficiency</p>
-      <section class="chars">
-        <div class="char">
-          <h2 class="char-title"> 10k+ </h2>
-          <p>companies</p>
-        </div>
-        <div class="char">
-          <h2 class="char-title">
-            314 
-          </h2>
-          <p>templates</p>
-        </div>
-        <div class="char">
-          <h2 class="char-title">
-            12m+ 
-          </h2>
-          <p>queries</p>
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+        margin-top: 5rem;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main class="card">
+      <figure class="card__logo">
+        <img
+          src="images/image-header-mobile.jpg"
+          loading="lazy"
+          alt="header mobile"
+        />
+      </figure>
+      <article class="card__content container">
+        <h1 class="card__title">Get <span>insights</span> that help your business grow.</h1>
+        <p class="card__paragraph">
+          Discover the benefits of data analytics and make better decisions
+          regarding revenue, customer experience, and overall efficiency.
+        </p>
+        <section class="column">
+          <p>10k+<span>companies</span></p>
+          <p>314<span>templates</span></p>
+          <p>12m+<span>queries</span></p>
+        </section>
+      </article>
+    </main>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">@Brizusan</a>.
+    </div>
 
-        </div>
-      </section>
-    </section>
-  </article>
-    
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="https://github.com/Brizusan" target="_blank">brizusan</a>.
-  </div>
-</body>
+  </body>
 </html>
